@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Plus, User, Users } from 'lucide-react';
 
 export default function Configuracion({ onComplete }) {
-  const [numCuentas, setNumCuentas] = useState(1);
   const [cuentas, setCuentas] = useState([{ id: 0, nombre: '', esPropia: true }]);
 
   const agregarCuenta = () => {

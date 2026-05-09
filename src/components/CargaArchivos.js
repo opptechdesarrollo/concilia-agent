@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Upload, FileText, CheckCircle2, Loader2 } from 'lucide-react';
+import { Upload, CheckCircle2, Loader2 } from 'lucide-react';
 import { procesarExtracto } from '../agent';
 import { fileToBase64 } from '../utils/procesarArchivo';
 
